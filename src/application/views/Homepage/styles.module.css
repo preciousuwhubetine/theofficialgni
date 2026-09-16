@@ -219,7 +219,7 @@
   }
 }
 
-@media (500px) {
+@media (max-width: 500px) {
   .BannerContent {
     animation: "scroll" 3s linear infinite;
   }
