@@ -1,0 +1,37 @@
+.btn {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 50rem;
+  font-size: 12px;
+  font-weight: bold;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  transition: background-color 0.3s ease, transform 0.1s ease;
+  font-family: 'Plus Jakarta Sans', 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+}
+
+.btn.btn-large {
+  font-size: 14px;
+  padding: 14px 28px;
+}
+
+.btn-primary {
+  background-color: var(--primary-color);
+  color: white !important;
+}
+
+.btn-secondary {
+  color: var(--text-color-light-2)
+}
+
+.btn-tertiary {
+  border: 2px solid var(--text-color-light-2);
+  color: var(--text-color-light-2)
+}
+
+.btn:active {
+  transform: scale(0.98);
+}

@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:disabled {
+  cursor: not-allowed;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+:root {
+  --primary-color: #007719;
+  --primary-color-dark: #0d1a0e;
+  --secondary-color: #3c423d;
+  --text-color-light-2: #ffffffb3;
+  --text-color-light-3: #ffffff59;
+  --text-color-light-4: #ffffff33;
+}
+
+body {
+  font-family: 'Plus Jakarta Sans', 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+  background-color: #fff;
+  line-height: 1.4;
+  font-size: 16px;
+}
+
+a {
+  color: #000;
+  text-decoration: none;
+  transition: 0.3s color;
+  font-family: 'Plus Jakarta Sans', 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+}
+
+ul {
+  list-style: none;
+}
+
+input,
+textarea,
+select,
+option {
+  padding: 0.5rem;
+  font-size: 1rem;
+  font-family: 'Plus Jakarta Sans', 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+  border: 1px solid var(--border-color);
+  outline: none;
+  resize: none;
+}
+
+.container {
+  max-width: 1300px;
+  width: 100%;
+  position: relative;
+  margin: 0 auto;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: 'Plus Jakarta Sans', 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+  line-height: 1.2;
+}
+
+h1 {
+  font-size: 120px;
+  font-family: "Bebas Neue", 'Plus Jakarta Sans', 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+  line-height: 0.9;
+}
+
+h2 {
+  font-size: 32px;
+}
+
+h3 {
+  font-family: "Bebas Neue", 'Plus Jakarta Sans', 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+  font-size: 24px;
+}
+
+h4 {
+  font-size: 20px;
+}
+
+p, li {
+  font-size: 16px;
+}
+
+@media (max-width: 750px) {
+  h1 {
+    font-size: 80px;
+  }
+
+  h2 {
+    font-size: 24px;
+  }
+
+  h3 {
+    font-size: 20px;
+  }
+
+  h4 {
+    font-size: 18px;
+  }
+
+  p, li {
+    font-size: 14px;
+  }
+}
