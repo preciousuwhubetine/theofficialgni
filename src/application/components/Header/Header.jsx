@@ -49,46 +49,46 @@ const Header = () => {
             <nav className={styles['HeaderNav']}>
               <ul>
                 <li>
-                  <Link to="#about">
+                  <a href="#about">
                     ABOUT
                     <span />
-                  </Link>
+                  </a>
                 </li>
                 <li>
-                  <Link to="#programs">
+                  <a href="#programs">
                     PROGRAMS
                     <span />
-                  </Link>
+                  </a>
                 </li>
                 <li>
-                  <Link to="#impact">
+                  <a href="#impact">
                     IMPACT
                     <span />
-                  </Link>
+                  </a>
                 </li>
                 <li>
-                  <Link to="#impact">
+                  <a href="#blog">
                     BLOG
                     <span />
-                  </Link>
+                  </a>
                 </li>
                 <li>
-                  <Link to="#impact">
+                  <a href="#impact">
                     RESOURCES
                     <span />
-                  </Link>
+                  </a>
                 </li>
               </ul>
             </nav>
 
             <div className={styles['HeaderActions']}>
-              <Link to="#community">JOIN US</Link>
+              <a href="#community">JOIN US</a>
               <span />
-              <Link to="#donate" className="btn btn-primary">
+              <a href="#donate" className="btn btn-primary">
                 Donate
 
                 <span>↗</span>
-              </Link>
+              </a>
             </div>
 
             <button className={styles['HeaderMenuButton']} onClick={() => setIsMenuOpen(!isMenuOpen)}>
@@ -109,47 +109,47 @@ const Header = () => {
           <div className={styles['HeaderMenu']}>
             <ul>
               <li>
-                <Link to="#about" onClick={() => setIsMenuOpen(false)}>
+                <a href="#about" onClick={() => setIsMenuOpen(false)}>
                   About
                   <span>→</span>
-                </Link>
+                </a>
               </li>
               <li>
-                <Link to="#programs" onClick={() => setIsMenuOpen(false)}>
+                <a href="#programs" onClick={() => setIsMenuOpen(false)}>
                   Programs
                   <span>→</span>
-                </Link>
+                </a>
               </li>
               <li>
-                <Link to="#impact" onClick={() => setIsMenuOpen(false)}>
+                <a href="#impact" onClick={() => setIsMenuOpen(false)}>
                   Impact
                   <span>→</span>
-                </Link>
+                </a>
               </li>
               <li>
-                <Link to="#blog" onClick={() => setIsMenuOpen(false)}>
+                <a href="#blog" onClick={() => setIsMenuOpen(false)}>
                   Blog
                   <span>→</span>
-                </Link>
+                </a>
               </li>
               <li>
-                <Link to="#resources" onClick={() => setIsMenuOpen(false)}>
+                <a href="#resources" onClick={() => setIsMenuOpen(false)}>
                   Resources
                   <span>→</span>
-                </Link>
+                </a>
               </li>
             </ul>
 
             <div className={styles['HeaderMenuActions']}>
-              <Link to="#community" className="btn btn-tertiary">
+              <a href="#community" className="btn btn-tertiary">
                 Join Us
-              </Link>
+              </a>
 
-              <Link to="#donate" className="btn btn-primary">
+              <a href="#donate" className="btn btn-primary">
                 Donate
 
                 <span>↗</span>
-              </Link>
+              </a>
             </div>
           </div>
         )

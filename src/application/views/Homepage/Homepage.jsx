@@ -157,7 +157,7 @@ const Homepage = () => {
         </div>
       </section>
 
-      <section className={styles['About']}>
+      <section className={styles['About']} id="about">
         <div className={styles['AboutHeader']}>
           <div className="container">
             <div className={styles['AboutHeaderContent']}>
