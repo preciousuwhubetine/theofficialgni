@@ -254,7 +254,7 @@
   display: flex;
   flex-direction: column;
   gap: 32px;
-  padding: 0 56px 20px;
+  padding: 0 56px 56px;
 }
 
 .AboutContentVision hr {
@@ -378,7 +378,7 @@
   }
 
   .AboutContentVision {
-    padding: 0 20px 20px;
+    padding: 0 20px 56px;
   }
 }
 
