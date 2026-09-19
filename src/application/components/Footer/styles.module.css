@@ -1,0 +1,161 @@
+.Footer {
+  background-color: black;
+}
+
+.FooterTop {
+  display: grid;
+  padding: 64px 20px;
+  grid-template-columns: 1.5fr 1fr 1fr 1fr;
+  gap: 32px;
+}
+
+.Logo {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.Logo img {
+  width: 100px;
+  object-fit: contain;
+  height: 50px;
+}
+
+.FooterLeft {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.FooterLeft h2 {
+  font-size: 79px;
+  color: var(--text-color-light-5);
+}
+
+.FooterLeft h2 span {
+  color: var(--primary-color);
+}
+
+.FooterLeft p {
+  color: var(--text-color-light-3);
+  font-size: 12px;
+  line-height: 1.5;
+  max-width: 400px;
+}
+
+.FooterLeft ul {
+  display: flex;
+  gap: 8px;
+}
+
+.FooterLeft ul li a {
+  color: var(--text-color-light-6);
+  transition: 0.3s all;
+  border: 1px solid var(--text-color-light-6);
+  border-radius: 50%;
+  padding: 8px;
+  display: flex;
+  width: 32px;
+  height: 32px;
+  align-items: center;
+  justify-content: center;
+  font-size: 10px;
+}
+
+.FooterLeft ul li a:hover {
+  color: white;
+  border-color: white;
+}
+
+.FooterSection {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.FooterSection h4 {
+  color: var(--text-color-light-4);
+  font-size: 10px;
+}
+
+.FooterSection ul {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.FooterSection ul li a {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 12px;
+}
+
+.FooterSection ul li a {
+  color: var(--text-color-light-6);
+  transition: 0.3s color;
+}
+
+.FooterSection ul li span {
+  display: inline-block;
+  background-color: var(--primary-color);
+  width: 12px;
+  height: 1px;
+  transition: 0.3s width;
+}
+
+.FooterSection ul li:hover a {
+  color: white;
+}
+
+.FooterSection ul li:hover span {
+  width: 18px;
+}
+
+.ContactInfo {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.ContactInfo h5 {
+  color: var(--text-color-light-4);
+  font-size: 10px;
+}
+
+.ContactInfo p,
+.ContactInfo a {
+  color: var(--text-color-light-6);
+  font-size: 12px;
+  transition: 0.3s color;
+}
+
+.ContactInfo a:hover {
+  color: white;
+}
+
+.ContactInfoButton {
+  width: max-content;
+}
+
+@media (max-width: 850px) {
+  .FooterLeft {
+    grid-column: 1 / -1;
+  }
+
+  .FooterTop {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (max-width: 500px) {
+  .FooterLeft h2 {
+    font-size: 56px;
+  }
+}
+
+@media (max-width: 350px) {
+  .FooterTop {
+    grid-template-columns: 1fr;
+  }
+}

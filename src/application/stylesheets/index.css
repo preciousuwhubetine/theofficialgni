@@ -26,6 +26,8 @@ html {
   --text-color-light-2: #ffffffb3;
   --text-color-light-3: #ffffff59;
   --text-color-light-4: #ffffff33;
+  --text-color-light-5: #ffffff0f;
+  --text-color-light-6: #ffffff73;
 }
 
 body {
@@ -82,6 +84,7 @@ h1 {
 h2 {
   font-family: "Bebas Neue", 'Plus Jakarta Sans', 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
   font-size: 56px;
+  line-height: 1;
 }
 
 h3 {
