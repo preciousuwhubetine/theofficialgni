@@ -20,6 +20,9 @@ html {
   --primary-color: #007719;
   --primary-color-dark: #0d1a0e;
   --secondary-color: #3c423d;
+  --text-color-dark-1: #6a7282;
+  --text-color-dark-2: #1e2939;
+  --text-color-light-1: #d1d5db;
   --text-color-light-2: #ffffffb3;
   --text-color-light-3: #ffffff59;
   --text-color-light-4: #ffffff33;
@@ -77,7 +80,8 @@ h1 {
 }
 
 h2 {
-  font-size: 32px;
+  font-family: "Bebas Neue", 'Plus Jakarta Sans', 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+  font-size: 56px;
 }
 
 h3 {
@@ -99,7 +103,7 @@ p, li {
   }
 
   h2 {
-    font-size: 24px;
+    font-size: 48px;
   }
 
   h3 {

@@ -156,6 +156,67 @@ const Homepage = () => {
           <div />
         </div>
       </section>
+
+      <section className={styles['About']}>
+        <div className={styles['AboutHeader']}>
+          <div className="container">
+            <div className={styles['AboutHeaderContent']}>
+              <h5>WHO WE ARE</h5>
+              <p>FORWARD IMPACT FOR DEVELOPMENT IN AFRICA</p>
+            </div>
+          </div>
+        </div>
+
+        <div className={styles['AboutContent']}>
+          <img src="/images/homepage-hero-section-bg.jpg" className={styles['AboutContentImage']} alt="Young Nigerians in national colours" />
+          <div className="container">
+            <div className={styles['AboutContentMain']}>
+              <div className={styles['AboutContentText']}>
+                <div className={styles['AboutContentTextHeader']}>
+                  <h2>
+                    BUILDING THE<br /> BRIDGE TO A <br /> <span>WORKING NIGERIA</span>
+                  </h2>
+
+                  <p>
+                    Greener Nigeria Initiative (GNI) is the pilot solution design at <b>Forward Impact for Development in Africa (FIDA)</b> — created to be the bridge between everyday Nigerians and the realisation of a working Nigeria.
+                  </p>
+                </div>
+
+                  <p>Our goal is to empower young Nigerians by positioning them for active democratic participation and nation building — one community at a time.</p>
+              </div>
+
+              <div className={styles['AboutContentVision']}>
+                <ul className={styles['AboutContentVisionList']}>
+                  <li>
+                    <h5>THE VISION</h5>
+                    <h5>Habitual Citizenship</h5>
+                    <p>
+                      A Nigeria where citizens participation is habitual and development aligns with public needs.
+                    </p>
+                  </li>
+                  <li>
+                    <h5>THE MISSION</h5>
+                    <h5>Grassroots Development</h5>
+                    <p>
+                      Facilitating grassroots development through creativity, human capital development and civic engagement.
+                    </p>
+                  </li>
+                </ul>
+
+                <hr />
+
+                <ul className={styles['AboutContentVisionTags']}>
+                  <li>OPTIMISM</li>
+                  <li>CREATIVITY</li>
+                  <li>PROACTIVITY</li>
+                  <li>COLLABORATION</li>
+                  <li>INCLUSION</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
     </div>
   )
 }
