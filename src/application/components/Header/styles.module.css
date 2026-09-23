@@ -90,6 +90,7 @@
 .Logo img {
   width: 120px;
   object-fit: contain;
+  object-position: left;
   height: 60px;
 }
 
