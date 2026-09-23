@@ -537,6 +537,12 @@
   font-style: italic;
 }
 
+@media (max-width: 1024px) {
+  .BeginningContentText ul li::before {
+    padding-top: 0;
+  }
+}
+
 @media (max-width: 768px) {
   .HeroImage {
     width: 100%;
@@ -607,10 +613,6 @@
 
   .BeginningContentText {
     padding: 40px 20px;
-  }
-
-  .BeginningContentText ul li::before {
-    padding-top: 0;
   }
 }
 
