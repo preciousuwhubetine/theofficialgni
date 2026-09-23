@@ -7,9 +7,9 @@ function Footer() {
       <div className="container">
         <div className={styles['FooterTop']}>
           <div className={styles['FooterLeft']}>
-            <div className={styles['Logo']}>
-              <img src="/images/logo-light.png" alt="GNI Logo" />
-            </div>
+            <Link to="/" className={styles['Logo']}>
+              <img src="/images/logo-dark.png" alt="GNI Logo" />
+            </Link>
 
             <h2>
               CITIZENSHIP.

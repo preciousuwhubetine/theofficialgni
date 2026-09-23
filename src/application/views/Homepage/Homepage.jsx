@@ -217,6 +217,97 @@ const Homepage = () => {
           </div>
         </div>
       </section>
+
+      <section className={styles['Objectives']} id="impact">
+        <div className="container">
+          <div className={styles['ObjectivesContent']}>
+            <div className={styles['ObjectivesContentHeader']}>
+              <h5>OUR OBJECTIVES</h5>
+              <h2>THREE PILLARS OF IMPACT</h2>
+            </div>
+
+            <ul>
+              <li>
+                <h3>01</h3>
+                <h4>National Identity</h4>
+                <p>Promote a positive sense of national identity through creative expressions among Nigerian youths — organising events that celebrate the beauty, diversity and uniqueness of Nigeria.</p>
+              </li>
+              <li>
+                <h3>02</h3>
+                <h4>Democratic Participation</h4>
+                <p>Strengthen democracy in Nigeria and improve citizens participation through civic engagement, political education, workshops and outreach programs.</p>
+              </li>
+              <li>
+                <h3>03</h3>
+                <h4>Human Capital</h4>
+                <p>Empower youths and women through human capital development and socio-economic programs — training and mentorship programs that improve ability to contribute to national development.</p>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section className={styles['Beginning']}>
+        <div className="container">
+          <div className={styles['BeginningHeader']}>
+            <h5>WHERE IT ALL BEGAN</h5>
+            <p>Lagos, Nigeria</p>
+          </div>
+
+          <div className={styles['BeginningContent']}>
+            <p className={styles['BeginningContentBg']}>
+              JULY 2019
+            </p>
+
+            <div className={styles['BeginningContentImage']}>
+              <img src="/images/where-it-began-bg.jpg" alt="Greener Nigeria Initiative was founded in Lagos, Nigeria" />
+
+              <div>
+                <h1>
+                  <span>JUL 17</span>
+                  <br />
+                  2019
+                </h1>
+
+                <p>THE DAY A VISION BECAME A MOVEMENT</p>
+              </div>
+            </div>
+
+            <div className={styles['BeginningContentText']}>
+              <p>
+                A small group of young Nigerians in Lagos, led by <b>Akolawole Ezekiel</b>, made a move — following the conception of a vision born from the desire to change the narrative that projected Nigeria as a country whose people are disadvantaged just by being Nigerian.
+              </p>
+
+              <ul>
+                <li>
+                  <h5>01 - WHAT WE KNEW</h5>
+                  <p>
+                    Envisioning a great Nigeria seemed impracticable. Identifying as a Nigerian was becoming uncomfortable — both at home and abroad. Governance was failing and people were continually underserved.
+                  </p>
+                </li>
+                <li>
+                  <h5>02 - WHAT WE RESOLVED</h5>
+                  <p>
+                    Tap into the creativity and resourcefulness of Nigerian youths for grassroots development — opening strategic opportunities for young Nigerians to thrive and rebuild their own nation.
+                  </p>
+                </li>
+                <li>
+                  <h5>03 - HOW WE STARTED</h5>
+                  <p>
+                    "The Save Nigeria Campaign" — Sep 26th, 2019, Alimosho, Lagos. Youths arrived in national colours to celebrate identity through photography. The photos flooded social media on Independence Day.
+                  </p>
+                </li>
+              </ul>
+
+              <div className={styles['BeginningContentQuote']}>
+                <p>
+                  "We are on a journey of harnessing the power of citizenship and democratic infrastructure in fostering an improved sense of identity, ownership, and collective action towards the realisation of a <b>Greener Nigeria</b>"
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
     </div>
   )
 }

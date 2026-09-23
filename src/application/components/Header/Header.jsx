@@ -42,9 +42,9 @@ const Header = () => {
       <div className={styles['HeaderMain']}>
         <div className="container">
           <div className={styles['HeaderContent']}>
-            <div className={styles['Logo']}>
-              <img src="/images/logo-light.png" alt="GNI Logo" />
-            </div>
+            <Link to="/" className={styles['Logo']}>
+              <img src="/images/logo-dark.png" alt="GNI Logo" />
+            </Link>
 
             <nav className={styles['HeaderNav']}>
               <ul>

@@ -19,6 +19,7 @@ html {
 :root {
   --primary-color: #007719;
   --primary-color-dark: #0d1a0e;
+  --primary-color-darker: #060e07;
   --secondary-color: #3c423d;
   --text-color-dark-1: #6a7282;
   --text-color-dark-2: #1e2939;
@@ -28,6 +29,8 @@ html {
   --text-color-light-4: #ffffff33;
   --text-color-light-5: #ffffff0f;
   --text-color-light-6: #ffffff73;
+  --text-color-light-7: #ffffff4d;
+  --text-color-light-8: #ffffff99;
 }
 
 body {
@@ -67,6 +70,10 @@ option {
   margin: 0 auto;
 }
 
+section {
+  scroll-margin-top: 100px;
+}
+
 h1,
 h2,
 h3,
@@ -98,6 +105,7 @@ h4 {
 
 p, li {
   font-size: 16px;
+  line-height: 1.7;
 }
 
 @media (max-width: 750px) {

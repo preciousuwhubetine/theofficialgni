@@ -321,6 +321,225 @@
   color: var(--primary-color);
 }
 
+.Objectives {
+  background-color: rgb(247, 250, 248);
+  padding: 100px 20px;
+}
+
+.ObjectivesContent {
+  display: flex;
+  flex-direction: column;
+  gap: 64px;
+}
+
+.ObjectivesContentHeader {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  text-align: center;
+}
+
+.ObjectivesContentHeader h5 {
+  color: var(--primary-color);
+}
+
+.ObjectivesContent ul {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 16px;
+}
+
+.ObjectivesContent ul li {
+  background-color: white;
+  border: 1px solid rgb(232, 244, 234);
+  border-radius: 4px;
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.ObjectivesContent ul li h3 {
+  color: var(--primary-color);
+  font-size: 60px;
+  font-family: "Bebas Neue", sans-serif;
+  opacity: 0.1;
+}
+
+.ObjectivesContent ul li p {
+  color: var(--text-color-dark-1);
+  font-size: 14px;
+}
+
+.Beginning {
+  background-color: var(--primary-color-darker);
+}
+
+.BeginningHeader {
+  border-bottom: 1px solid #ffffff0f;
+  padding: 20px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 4px;
+}
+
+.BeginningHeader h5,
+.BeginningHeader p {
+  color: var(--text-color-light-7);
+  font-family: 'Montserrat', 'Plus Jakarta Sans', 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+}
+
+.BeginningHeader h5 {
+  font-weight: 500;
+  letter-spacing: 4px;
+}
+
+.BeginningHeader p {
+  font-size: 12px;
+}
+
+.BeginningContent {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  position: relative;
+}
+
+.BeginningContentBg {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: calc(120px + 5vw);
+  color: white;
+  opacity: 0.03;
+  letter-spacing: -0.3px;
+  line-height: 1;
+  text-align: center;
+  font-family: "Bebas Neue", 'Plus Jakarta Sans', 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+}
+
+.BeginningContentImage {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  border-left: 4px solid var(--primary-color);
+}
+
+.BeginningContentImage img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.BeginningContentImage div {
+  background: linear-gradient(to top, rgb(6, 14, 7) 20%, transparent 70%);
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 40px;
+  gap: 16px;
+}
+
+.BeginningContentImage h1 {
+  color: white;
+}
+
+.BeginningContentImage h1 span {
+  color: var(--primary-color);
+}
+
+.BeginningContentImage p {
+  color: var(--text-color-light-7);
+  font-size: 12px;
+  letter-spacing: 2px;
+}
+
+.BeginningContentText {
+  padding: 56px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  color: var(--text-color-light-8);
+  font-family: 'Montserrat', 'Plus Jakarta Sans', 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+}
+
+.BeginningContentText p {
+  font-size: 14px;
+}
+
+.BeginningContentText p b {
+  color: white;
+}
+
+.BeginningContentText ul {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  padding-left: 60px;
+}
+
+.BeginningContentText ul li {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  position: relative;
+}
+
+.BeginningContentText ul li h5 {
+  color: var(--primary-color);
+  font-family: "Plus Jakarta Sans";
+  letter-spacing: 3px;
+}
+
+.BeginningContentText ul li::before {
+  content: "◼";
+  color: var(--primary-color);
+  font-size: 12px;
+  line-height: 0;
+  position: absolute;
+  left: -60px;
+  top: 4px;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  border: 2px solid var(--primary-color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 1px;
+}
+
+.BeginningContentText ul li::after {
+  content: "";
+  position: absolute;
+  left: -48px;
+  top: 28px;
+  width: 1px;
+  height: calc(100% + 20px);
+  opacity: 0.3;
+  background-color: var(--primary-color);
+}
+
+.BeginningContentText ul li:last-child::after {
+  height: 80%;
+}
+
+.BeginningContentQuote {
+  padding: 24px;
+  background-color: rgba(0, 119, 25, 0.08);
+  border-left: 3px solid var(--primary-color);
+  border-radius: 4px;
+  font-style: italic;
+}
+
 @media (max-width: 768px) {
   .HeroImage {
     width: 100%;
@@ -380,6 +599,14 @@
   .AboutContentVision {
     padding: 0 20px 56px;
   }
+
+  .BeginningContent {
+    grid-template-columns: 1fr;
+  }
+
+  .BeginningContentImage {
+    height: 400px;
+  }
 }
 
 @media (max-width: 550px) {
@@ -387,6 +614,21 @@
     flex-direction: column;
     align-items: flex-start;
     gap: 8px;
+  }
+
+  .ObjectivesContent ul {
+    grid-template-columns: 1fr;
+  }
+
+  .BeginningHeader {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 20px 32px;
+  }
+
+  .BeginningHeader h5,
+  .BeginningHeader p {
+    letter-spacing: 2px;
   }
 }
 
