@@ -388,15 +388,12 @@
 .BeginningHeader p {
   color: var(--text-color-light-7);
   font-family: 'Montserrat', 'Plus Jakarta Sans', 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+  font-size: 12px;
 }
 
 .BeginningHeader h5 {
   font-weight: 500;
   letter-spacing: 4px;
-}
-
-.BeginningHeader p {
-  font-size: 12px;
 }
 
 .BeginningContent {
@@ -606,6 +603,14 @@
 
   .BeginningContentImage {
     height: 400px;
+  }
+
+  .BeginningContentText {
+    padding: 40px 20px;
+  }
+
+  .BeginningContentText ul li::before {
+    padding-top: 0;
   }
 }
 
