@@ -308,6 +308,72 @@ const Homepage = () => {
           </div>
         </div>
       </section>
+
+      <section className={styles['Programs']} id="programs">
+        <div className="container">
+          <div className={styles['ProgramsContent']}>
+            <div className={styles['ProgramsContentHeader']}>
+              <h5>OUR MAIN PROGRAMS</h5>
+              <h2>BUILDING NIGERIA, ONE PROGRAM AT A TIME</h2>
+            </div>
+
+            <ul>
+              <li>
+                <div className={styles['ProgramsContentImage']}>
+                  <img src="/images/rcv.jpg" alt="RCV Campaign" />
+                  <div>
+                    <h4>REGISTER · COLLECT · VOTE</h4>
+                  </div>
+                </div>
+
+                <div className={styles['ProgramsContentText']}>
+                  <h3>The RCV Campaign</h3>
+
+                  <p>
+                    Mass advocacy against voter apathy, community organising, PVC registration drives, civic programs, voter education, and mobilisation toward informed democratic participation across Nigeria.
+                  </p>
+                </div>
+              </li>
+
+              <li>
+                <div className={styles['ProgramsContentImage']}>
+                  <img src="/images/imaging-nigeria.jpg" alt="Imaging Nigeria Photoshoot Party" />
+
+                  <div>
+                    <h4>VISUAL STORYTELLING</h4>
+                  </div>
+                </div>
+
+                <div className={styles['ProgramsContentText']}>
+                  <h3>Imaging Nigeria Photoshoot Party</h3>
+
+                  <p>
+                    A youth-focused creativity and recreation program promoting community spirit among Nigerian youths. Celebrating the essence, resourcefulness, diversity and beauty of the Nigerian people through visual storytelling.
+                  </p>
+                </div>
+              </li>
+
+              <li>
+                <div className={styles['ProgramsContentImage']}>
+                  <img src="/images/the-greener-platform.jpg" alt="The Greener Platform" />
+
+                  <div>
+                    <h4>THE GREENER PLATFORM</h4>
+                  </div>
+                </div>
+
+                <div className={styles['ProgramsContentText']}>
+                  <h3>Greener Conversation Room</h3>
+
+                  <p>
+                    Our monthly civic dialogue forum — bringing together thought leaders, active citizens, activists and youths for honest conversations on nation building, civic responsibility and good governance.
+                  </p>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
     </div>
   )
 }

@@ -536,6 +536,104 @@
   font-style: italic;
 }
 
+.ProgramsContent {
+  padding: 100px 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 64px;
+}
+
+.ProgramsContentHeader {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.ProgramsContentHeader h5 {
+  color: var(--primary-color);
+  letter-spacing: 0.5px;
+  font-weight: 500;
+}
+
+.ProgramsContent ul {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 16px;
+}
+
+.ProgramsContent ul li {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid rgb(238, 238, 238);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.ProgramsContentImage {
+  position: relative;
+  height: 240px;
+}
+
+.ProgramsContentImage div {
+  background: linear-gradient(to top, rgb(6, 14, 7) 20%, transparent 70%);
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.ProgramsContent ul li:first-child .ProgramsContentImage div {
+  background: rgba(0, 119, 25, 0.6);
+}
+
+.ProgramsContent ul li:nth-child(2) .ProgramsContentImage div {
+  background: rgba(60, 66, 61, 0.6);
+}
+
+.ProgramsContent ul li:nth-child(3) .ProgramsContentImage div {
+  background: rgba(0, 0, 0, 0.6);
+}
+
+.ProgramsContentImage img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.ProgramsContentImage h4 {
+  position: relative;
+  z-index: 1;
+  color: white;
+  padding: 16px;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.ProgramsContentText {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.ProgramsContentText h3 {
+  font-family: "Plus Jakarta Sans";
+  font-size: 16px;
+}
+
+.ProgramsContentText p {
+  color: var(--text-color-dark-1);
+  font-size: 14px;
+  line-height: 1.6;
+  font-family: 'Montserrat', 'Plus Jakarta Sans', 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+}
+
 @media (max-width: 768px) {
   .HeroImage {
     width: 100%;
@@ -606,6 +704,10 @@
 
   .BeginningContentText {
     padding: 40px 20px;
+  }
+
+  .ProgramsContent ul {
+    grid-template-columns: 1fr;
   }
 }
 
