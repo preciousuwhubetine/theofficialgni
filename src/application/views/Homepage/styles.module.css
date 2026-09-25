@@ -214,6 +214,7 @@
   width: 100%;
   height: 100%;
   object-fit: cover;
+  object-position: 60% 50%;
 }
 
 .AboutContentText {
@@ -557,7 +558,7 @@
 
 .ProgramsContent ul {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
   gap: 16px;
 }
 
@@ -593,7 +594,9 @@
   background: rgba(60, 66, 61, 0.6);
 }
 
-.ProgramsContent ul li:nth-child(3) .ProgramsContentImage div {
+.ProgramsContent ul li:nth-child(3) .ProgramsContentImage div,
+.ProgramsContent ul li:nth-child(4) .ProgramsContentImage div,
+.ProgramsContent ul li:nth-child(5) .ProgramsContentImage div {
   background: rgba(0, 0, 0, 0.6);
 }
 
@@ -633,6 +636,151 @@
   line-height: 1.6;
   font-family: 'Montserrat', 'Plus Jakarta Sans', 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
 }
+
+.Impact {
+  padding: 60px 0 0;
+  background: black;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  overflow: hidden;
+}
+
+.ImpactBg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.ImpactBg img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.ImpactBg::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.9);
+}
+
+.ImpactHeader {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  align-items: end;
+  padding: 0 20px;
+  margin-bottom: 40px;
+  z-index: 1;
+}
+
+.ImpactHeaderLeft {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.ImpactHeaderLeft h5 {
+  color: var(--text-color-light-7);
+  font-weight: 500;
+  letter-spacing: 4px;
+}
+
+.ImpactHeaderLeft h2 span {
+  color: var(--primary-color);
+}
+
+.ImpactHeaderRight p {
+  color: var(--text-color-light-7);
+  font-size: 12px;
+  letter-spacing: 0.2px;
+  text-align: right;
+}
+
+.ImpactContent {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  z-index: 1;
+}
+
+.ImpactContent h1,
+.ImpactContent div:nth-child(5) h2 {
+  color: var(--primary-color);
+}
+
+.ImpactContent div {
+  border: 1px solid #ffffff0f;
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  justify-content: center;
+}
+
+.ImpactContent div:first-child {
+  grid-row: span 2;
+  min-height: 250px;
+}
+
+.ImpactContentGroup h5 {
+  color: var(--text-color-light-4);
+  letter-spacing: 2px;
+}
+
+.ImpactContentGroup:first-child h5 {
+  margin-bottom: 24px;
+}
+
+.ImpactContentGroup p {
+  color: var(--text-color-light-3);
+  font-size: 12px;
+}
+
+.ImpactContentGroup:first-child p {
+  color: var(--text-color-light-9);
+  font-size: 14px;
+}
+
+.ImpactFooter {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 40px;
+  gap: 16px;
+  z-index: 1;
+}
+
+.ImpactFooterLeft {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.ImpactFooterLeft span {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background-color: var(--primary-color);
+}
+
+.ImpactFooter p {
+  color: var(--text-color-light-7);
+  font-size: 12px;
+  letter-spacing: 0.2px;
+}
+
+.ImpactFooter a {
+  color: var(--primary-color);
+  font-size: 12px;
+  font-weight: 600;
+}
+
 
 @media (max-width: 768px) {
   .HeroImage {
@@ -708,6 +856,25 @@
 
   .ProgramsContent ul {
     grid-template-columns: 1fr;
+  }
+
+  .ImpactHeader {
+    grid-template-columns: 1fr;
+    gap: 16px;
+  }
+
+  .ImpactHeader p {
+    text-align: left;
+  }
+
+  .ImpactContent div:first-child {
+    grid-row: span 1;
+    grid-column: span 2;
+  }
+
+  .ImpactFooter {
+    flex-direction: column;
+    align-items: flex-start;
   }
 }
 
