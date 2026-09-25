@@ -43,7 +43,7 @@ const Header = () => {
         <div className="container">
           <div className={styles['HeaderContent']}>
             <Link to="/" className={styles['Logo']}>
-              <img src="/images/logo-dark.png" alt="GNI Logo" />
+              <img src="/images/logo-light.png" alt="GNI Logo" />
             </Link>
 
             <nav className={styles['HeaderNav']}>
