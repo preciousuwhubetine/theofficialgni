@@ -56,15 +56,17 @@ const Header = () => {
             </nav>
 
             <div className={styles['HeaderActions']}>
-              <a href="https://chat.whatsapp.com/EE0T4W6cXBg7ATpILd1vyb" target="_blank" rel="noopener noreferrer">
+              <a className="btn btn-primary" href="https://chat.whatsapp.com/EE0T4W6cXBg7ATpILd1vyb" target="_blank" rel="noopener noreferrer">
                 JOIN US
+
+                <span>↗</span>
               </a>
-              <span />
+              {/* <span />
               <a href="#donate" className="btn btn-primary">
                 Donate
 
                 <span>↗</span>
-              </a>
+              </a> */}
             </div>
 
             <button className={styles['HeaderMenuButton']} onClick={() => setIsMenuOpen(!isMenuOpen)}>
