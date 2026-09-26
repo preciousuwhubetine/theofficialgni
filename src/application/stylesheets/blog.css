@@ -45,3 +45,23 @@
 .bh-post-back-link {
   display: none;
 }
+
+@media (max-width: 768px) {
+  .bh-post-single h1 {
+    font-size: 32px;
+  }
+
+  .bh-post-single h2 {
+    font-size: 24px;
+  }
+
+  .bh-post-single h3 {
+    font-size: 20px;
+  }
+
+  .bh-post-single span,
+  .bh-post-single p {
+    font-size: 16px;
+    line-height: 1.9;
+  }
+}

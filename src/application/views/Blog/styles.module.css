@@ -9,3 +9,17 @@
 .Blog h2 {
   font-size: 32px;
 }
+
+@media (max-width: 768px) {
+  .Blog {
+    padding: 140px 20px;
+  }
+
+  .Blog h1 {
+    font-size: 60px;
+  }
+
+  .Blog h2 {
+    font-size: 24px;
+  }
+}
