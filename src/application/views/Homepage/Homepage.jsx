@@ -313,7 +313,7 @@ const Homepage = () => {
               </div>
 
               <p>
-                We are building a community of everyday Nigerians who share a common call of building Nigeria. Through this community, we focus on three major thematic areas:
+                We are building a community of everyday Nigerians who share a common call of building Nigeria. Through this community, we focus on three major areas:
               </p>
 
               <ul>
@@ -322,7 +322,7 @@ const Homepage = () => {
                   <div>
                     <h4>Advocacy</h4>
                     <p>
-                      Influence policies, strengthening inclusive development and generally improving government accountability.
+                      Influencing policies, strengthening inclusive development and generally improving government accountability.
                     </p>
                   </div>
                 </li>
@@ -340,7 +340,7 @@ const Homepage = () => {
                   <div>
                     <h4>Collaboration</h4>
                     <p>
-                      Partnerships with groups sharing our objectives to execute meaningful advocacy and education projects.
+                      Working with groups and organizations with shared objectives to execute meaningful advocacy and political education projects.
                     </p>
                   </div>
                 </li>
