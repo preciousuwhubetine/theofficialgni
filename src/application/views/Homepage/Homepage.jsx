@@ -296,6 +296,64 @@ const Homepage = () => {
         </div>
       </section>
 
+      <section className={styles['SaveNigeriaCampaign']}>
+        <div className="container">
+          <div className={styles['SaveNigeriaCampaignContent']}>
+            <div className={styles['SaveNigeriaCampaignLeft']}>
+              <div className={styles['SaveNigeriaCampaignLeftImage']}>
+                <img src="/images/save-nigeria-campaign.jpg" alt="The Save Nigeria Campaign" />
+              </div>
+            </div>
+            <div className={styles['SaveNigeriaCampaignRight']}>
+              <div className={styles['SaveNigeriaCampaignRightHeader']}>
+                <h5>THE SAVE NIGERIA CAMPAIGN</h5>
+                <h2>
+                  THE MOST DYNAMIC COMMUNITY OF EVERYDAY NIGERIANS
+                </h2>
+              </div>
+
+              <p>
+                We are building a community of everyday Nigerians who share a common call of building Nigeria. Through this community, we focus on three major thematic areas:
+              </p>
+
+              <ul>
+                <li>
+                  <span>1</span>
+                  <div>
+                    <h4>Advocacy</h4>
+                    <p>
+                      Influence policies, strengthening inclusive development and generally improving government accountability.
+                    </p>
+                  </div>
+                </li>
+                <li>
+                  <span>2</span>
+                  <div>
+                    <h4>Education</h4>
+                    <p>
+                      Carrying out civic and political education exercises that empower citizens to effectively perform their civic roles and ultimately contribute effectively to progressive national development.
+                    </p>
+                  </div>
+                </li>
+                <li>
+                  <span>3</span>
+                  <div>
+                    <h4>Collaboration</h4>
+                    <p>
+                      Partnerships with groups sharing our objectives to execute meaningful advocacy and education projects.
+                    </p>
+                  </div>
+                </li>
+              </ul>
+
+              <a href="https://chat.whatsapp.com/EE0T4W6cXBg7ATpILd1vyb" target="_blank" rel="noopener noreferrer" className="btn btn-large btn-primary">
+                Join Our Community
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
       <section className={styles['Programs']} id="programs">
         <div className="container">
           <div className={styles['ProgramsContent']}>

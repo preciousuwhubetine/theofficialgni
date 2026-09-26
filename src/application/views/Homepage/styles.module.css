@@ -525,6 +525,90 @@
   font-style: italic;
 }
 
+.SaveNigeriaCampaignContent {
+  padding: 100px 20px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 24px;
+}
+
+.SaveNigeriaCampaignLeftImage {
+  height: 100%;
+}
+
+.SaveNigeriaCampaignLeftImage img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.SaveNigeriaCampaignRight {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.SaveNigeriaCampaignRightHeader {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.SaveNigeriaCampaignRightHeader h5 {
+  color: var(--primary-color);
+  letter-spacing: 0.5px;
+}
+
+.SaveNigeriaCampaignRightHeader h2 {
+  letter-spacing: 0.5px;
+}
+
+.SaveNigeriaCampaignRight p {
+  color: var(--text-color-dark-1);
+  line-height: 1.6;
+}
+
+.SaveNigeriaCampaignRight ul {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.SaveNigeriaCampaignRight ul li {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  align-items: flex-start;
+  gap: 16px;
+}
+
+.SaveNigeriaCampaignRight ul li span {
+  background-color: var(--primary-color);
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.SaveNigeriaCampaignRight ul li h4 {
+  font-size: 20px;
+}
+
+.SaveNigeriaCampaignRight ul li div {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.Programs {
+  background-color: rgb(247, 250, 248);
+}
+
 .ProgramsContent {
   padding: 100px 20px;
   display: flex;
@@ -556,6 +640,7 @@
   border: 1px solid rgb(238, 238, 238);
   border-radius: 8px;
   overflow: hidden;
+  background-color: white;
 }
 
 .ProgramsContentImage {
@@ -839,6 +924,10 @@
 
   .BeginningContentText {
     padding: 40px 20px;
+  }
+
+  .SaveNigeriaCampaignContent {
+    grid-template-columns: 1fr;
   }
 
   .ProgramsContent ul {
