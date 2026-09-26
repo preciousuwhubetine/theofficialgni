@@ -13,39 +13,6 @@
   border-bottom: 1px solid rgba(0, 119, 25, 0.2);
 }
 
-.TopBar {
-  border-bottom: 1px solid rgba(255, 255, 255, 0.06);
-  padding: 8px;
-  color: var(--text-color-light-3);
-}
-
-.HeaderScrolled .TopBar {
-  display: none;
-}
-
-.TopBarContent {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.TopBarContent p {
-  font-size: 12px;
-}
-
-.TopBarContent div {
-  display: flex;
-  align-items: center;
-  gap: 16px;
-}
-
-.TopBarContent div span {
-  width: 6px;
-  height: 6px;
-  border-radius: 50%;
-  background-color: var(--primary-color);
-}
-
 .HeaderMain {
   padding: 8px 16px;
 }

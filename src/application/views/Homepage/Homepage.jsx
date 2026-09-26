@@ -33,13 +33,13 @@ const Homepage = () => {
               </div>
 
               <p className={styles['HeroContentTextDescription']}>
-                The most powerful form of empowerment a citizen can have is <span>"Ownership"</span>. We exist to make that ownership real for every Nigerian.
+                <span>Ownership</span> of one's contribution to national development is the real power of a citizen. We exist to make that ownership real for every Nigerian.
               </p>
             </div>
 
             <div className={styles['HeroContentActions']}>
-              <Link to="#community" className="btn btn-large btn-primary">
-                Discover Our Work
+              <Link to="#programs" className="btn btn-large btn-primary">
+                See Our Programs
               </Link>
 
               <Link to="#donate" className="btn btn-large btn-secondary">
@@ -50,24 +50,10 @@ const Homepage = () => {
               </Link>
             </div>
 
-            <ul className={styles['HeroContentImpact']}>
-              <li>
-                <h3>7+</h3>
-                <p>Years Active</p>
-              </li>
-              <li>
-                <h3>1M+</h3>
-                <p>Nigerians Reached</p>
-              </li>
-              <li>
-                <h3>8</h3>
-                <p>States</p>
-              </li>
-              <li>
-                <h3>80+</h3>
-                <p>Volunteers</p>
-              </li>
-            </ul>
+            <h2>
+              DRIVING CHANGE.
+              COLLABORATING FORWARD
+            </h2>
           </div>
         </div>
       </section>
@@ -168,7 +154,7 @@ const Homepage = () => {
         </div>
 
         <div className={styles['AboutContent']}>
-          <img src="/images/homepage-hero-section-bg.jpg" className={styles['AboutContentImage']} alt="Young Nigerians in national colours" />
+          <img src="/images/who-we-are-image.jpg" className={styles['AboutContentImage']} alt="Young Nigerians in national colours" />
           <div className="container">
             <div className={styles['AboutContentMain']}>
               <div className={styles['AboutContentText']}>
@@ -402,7 +388,7 @@ const Homepage = () => {
                   <h3>The BUILD Project</h3>
 
                   <p>
-                    BUsiness Innovation Leadership Development (BUILD) is
+                    BUsiness, Innovation and Leadership Development (BUILD) is
                     GNI's human capital development lead program focusing on building capacity in young Nigerians, and strengthening the country’s working population with competitive skills in enterprise, career, innovation and leadership.
                   </p>
                 </div>

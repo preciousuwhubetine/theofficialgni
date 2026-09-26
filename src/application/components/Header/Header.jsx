@@ -25,20 +25,6 @@ const Header = () => {
 
   return (
     <header className={styles['Header']}>
-      <div className={styles["TopBar"]}>
-        <div className="container">
-          <div className={styles['TopBarContent']}>
-            <p>www.theofficialgni.ng</p>
-
-            <div>
-              <p>IG · FB · X · TikTok: @theofficialgni</p>
-              <span />
-              <p>theofficialgni@gmail.com</p>
-            </div>
-          </div>
-        </div>
-      </div>
-
       <div className={styles['HeaderMain']}>
         <div className="container">
           <div className={styles['HeaderContent']}>
@@ -63,18 +49,6 @@ const Header = () => {
                 <li>
                   <a href="#impact">
                     IMPACT
-                    <span />
-                  </a>
-                </li>
-                <li>
-                  <a href="#blog">
-                    BLOG
-                    <span />
-                  </a>
-                </li>
-                <li>
-                  <a href="#impact">
-                    RESOURCES
                     <span />
                   </a>
                 </li>
@@ -123,18 +97,6 @@ const Header = () => {
               <li>
                 <a href="#impact" onClick={() => setIsMenuOpen(false)}>
                   Impact
-                  <span>→</span>
-                </a>
-              </li>
-              <li>
-                <a href="#blog" onClick={() => setIsMenuOpen(false)}>
-                  Blog
-                  <span>→</span>
-                </a>
-              </li>
-              <li>
-                <a href="#resources" onClick={() => setIsMenuOpen(false)}>
-                  Resources
                   <span>→</span>
                 </a>
               </li>

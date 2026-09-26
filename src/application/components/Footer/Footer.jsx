@@ -69,18 +69,6 @@ function Footer() {
                   Impact & Milestones
                 </a>
               </li>
-              <li>
-                <a href="#board">
-                  <span />
-                  Executive Board
-                </a>
-              </li>
-              <li>
-                <a href="#volunteer">
-                  <span />
-                  Volunteer
-                </a>
-              </li>
             </ul>
           </div>
 
@@ -88,18 +76,6 @@ function Footer() {
             <h4>RESOURCES</h4>
 
             <ul>
-              <li>
-                <Link to="/blog">
-                  <span />
-                  Blog
-                </Link>
-              </li>
-              <li>
-                <Link to="/resources">
-                  <span />
-                  Resources
-                </Link>
-              </li>
               <li>
                 <a href="#programs">
                   <span />

@@ -133,24 +133,11 @@
   padding-bottom: 2px;
 }
 
-.HeroContentImpact {
-  display: flex;
-  align-items: center;
-  flex-wrap: wrap;
-  column-gap: 48px;
-  row-gap: 16px;
-  margin-top: 32px;
-  z-index: 1;
-}
-
-.HeroContentImpact h3 {
-  color: var(--primary-color);
-  font-size: 28px;
-}
-
-.HeroContentImpact p {
-  color: var(--text-color-light-3);
-  font-size: 12px;
+.HeroContent h2 {
+  font-size: 24px;
+  color: var(--text-color-light-4);
+  text-transform: uppercase;
+  letter-spacing: 2px;
 }
 
 .Banner {
