@@ -931,6 +931,10 @@
     grid-template-columns: 1fr;
   }
 
+  .SaveNigeriaCampaignRight ul li h4 {
+    font-size: 18px;
+  }
+
   .ProgramsContent ul {
     grid-template-columns: 1fr;
   }
