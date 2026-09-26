@@ -52,6 +52,7 @@ const Homepage = () => {
 
             <h2>
               DRIVING CHANGE.
+              <br />
               COLLABORATING FORWARD.
             </h2>
           </div>
