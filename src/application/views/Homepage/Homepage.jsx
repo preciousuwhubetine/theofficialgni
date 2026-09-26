@@ -38,9 +38,9 @@ const Homepage = () => {
             </div>
 
             <div className={styles['HeroContentActions']}>
-              <Link to="#programs" className="btn btn-large btn-primary">
+              <a href="#programs" className="btn btn-large btn-primary">
                 See Our Programs
-              </Link>
+              </a>
 
               <Link to="#donate" className="btn btn-large btn-secondary">
                 <span>
