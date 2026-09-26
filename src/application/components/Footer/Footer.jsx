@@ -67,6 +67,15 @@ function Footer() {
                 </a>
               </li>
               <li>
+                <a href="https://www.linkedin.com/company/greener-nigeria-initiative/" target="_blank" rel="noopener noreferrer">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="64" height="64">
+                    <rect width="24" height="24" rx="5" ry="5" fill="#0A66C2" />
+
+                    <path fill="#ffffff" d="M7.371 8.879h2.825v8.528H7.371V8.879zm1.413-4.52a1.637 1.637 0 1 0 0 3.273 1.637 1.637 0 0 0 0-3.273zm3.743 4.52h2.704v1.168h.039c.377-.714 1.298-1.468 2.674-1.468 2.863 0 3.393 1.886 3.393 4.339v5.489h-2.825v-4.868c0-1.161-.022-2.655-1.618-2.655-1.62 0-1.868 1.264-1.868 2.57v4.953h-2.825V8.879z"/>
+                  </svg>
+                </a>
+              </li>
+              <li>
                 <a href="https://www.tiktok.com/@theofficialgni" target="_blank" rel="noopener noreferrer">
                   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="64" height="64">
                     <rect width="24" height="24" rx="5" ry="5" fill="#000000" />
@@ -97,7 +106,13 @@ function Footer() {
               <li>
                 <a href="#impact">
                   <span />
-                  Impact & Milestones
+                  Objectives and Impact
+                </a>
+              </li>
+              <li>
+                <a href="#milestones">
+                  <span />
+                  Milestones
                 </a>
               </li>
             </ul>
@@ -114,17 +129,17 @@ function Footer() {
                 </a>
               </li>
               <li>
-                <a href="community">
+                <a href="https://chat.whatsapp.com/EE0T4W6cXBg7ATpILd1vyb" target="_blank" rel="noopener noreferrer">
                   <span />
                   Join Community
                 </a>
               </li>
-              <li>
+              {/* <li>
                 <a href="#donate">
                   <span />
                   Donate
                 </a>
-              </li>
+              </li> */}
             </ul>
           </div>
 

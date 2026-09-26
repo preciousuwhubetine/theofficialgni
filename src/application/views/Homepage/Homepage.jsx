@@ -33,7 +33,7 @@ const Homepage = () => {
               </div>
 
               <p className={styles['HeroContentTextDescription']}>
-                <span>Ownership</span> of one's contribution to national development is the real power of a citizen. We exist to make that ownership real for every Nigerian.
+                <span>Ownership</span> of one's contribution to national development is the real power of a citizen. We exist to make that power real for every Nigerian.
               </p>
             </div>
 
@@ -42,12 +42,12 @@ const Homepage = () => {
                 See Our Programs
               </a>
 
-              <Link to="#donate" className="btn btn-large btn-secondary">
+              <a href="https://chat.whatsapp.com/EE0T4W6cXBg7ATpILd1vyb" target="_blank" rel="noopener noreferrer" className="btn btn-large btn-secondary">
                 <span>
                   →
                 </span>
                 Join the Movement
-              </Link>
+              </a>
             </div>
 
             <h2>
@@ -399,7 +399,7 @@ const Homepage = () => {
         </div>
       </section>
 
-      <section className={styles['Impact']} id="impact">
+      <section className={styles['Impact']} id="milestones">
         <div className={styles['ImpactBg']}>
           <img src="/images/impact-bg.jpg" alt="Greener Nigeria Initiative Impact" />
         </div>

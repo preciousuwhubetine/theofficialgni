@@ -48,7 +48,7 @@ const Header = () => {
                 </li>
                 <li>
                   <a href="#impact">
-                    IMPACT
+                    OBJECTIVES AND IMPACT
                     <span />
                   </a>
                 </li>
@@ -56,7 +56,9 @@ const Header = () => {
             </nav>
 
             <div className={styles['HeaderActions']}>
-              <a href="#community">JOIN US</a>
+              <a href="https://chat.whatsapp.com/EE0T4W6cXBg7ATpILd1vyb" target="_blank" rel="noopener noreferrer">
+                JOIN US
+              </a>
               <span />
               <a href="#donate" className="btn btn-primary">
                 Donate
@@ -96,22 +98,22 @@ const Header = () => {
               </li>
               <li>
                 <a href="#impact" onClick={() => setIsMenuOpen(false)}>
-                  Impact
+                  Objectives and Impact
                   <span>→</span>
                 </a>
               </li>
             </ul>
 
             <div className={styles['HeaderMenuActions']}>
-              <a href="#community" className="btn btn-tertiary">
+              <a href="https://chat.whatsapp.com/EE0T4W6cXBg7ATpILd1vyb" className="btn btn-tertiary" target="_blank" rel="noopener noreferrer">
                 Join Us
               </a>
 
-              <a href="#donate" className="btn btn-primary">
+              {/* <a href="#donate" className="btn btn-primary">
                 Donate
 
                 <span>↗</span>
-              </a>
+              </a> */}
             </div>
           </div>
         )
