@@ -135,9 +135,10 @@
 
 .HeroContent h2 {
   font-size: 24px;
-  color: var(--text-color-light-4);
+  color: var(--text-color-light-3);
   text-transform: uppercase;
   letter-spacing: 2px;
+  z-index: 2;
 }
 
 .Banner {
