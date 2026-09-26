@@ -26,22 +26,53 @@ function Footer() {
             <ul>
               <li>
                 <a href="https://www.instagram.com/theofficialgni/" target="_blank" rel="noopener noreferrer">
-                  IG
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="64" height="64">
+                    <defs>
+                      <radialGradient id="ig-gradient" cx="30%" cy="107%" r="150%">
+                        <stop offset="0%" stop-color="#fdf497" />
+                        <stop offset="5%" stop-color="#fdf497" />
+                        <stop offset="45%" stop-color="#fd5949" />
+                        <stop offset="60%" stop-color="#d6249f" />
+                        <stop offset="90%" stop-color="#285AEB" />
+                      </radialGradient>
+                    </defs>
+
+                    <rect width="24" height="24" rx="6" ry="6" fill="url(#ig-gradient)" />
+
+                    <g fill="none" stroke="#ffffff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+                      <rect x="3.5" y="3.5" width="17" height="17" rx="4.5" ry="4.5" />
+                      <circle cx="12" cy="12" r="3.7" />
+                      <circle cx="17.5" cy="6.5" r="0.8" fill="#ffffff" stroke="none" />
+                    </g>
+                  </svg>
                 </a>
               </li>
               <li>
                 <a href="https://www.x.com/theofficialgni/" target="_blank" rel="noopener noreferrer">
-                  X
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="64" height="64">
+                    <rect width="24" height="24" rx="5" ry="5" fill="#000000" />
+
+                    <path fill="#ffffff" d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/>
+                  </svg>
                 </a>
               </li>
               <li>
                 <a href="https://www.facebook.com/theofficialgni/" target="_blank" rel="noopener noreferrer">
-                  FB
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="64" height="64">
+                    <rect width="24" height="24" rx="5" ry="5" fill="#1877F2" />
+
+                    <path fill="#ffffff" d="M15.12 20.5v-6.02h2.02l.3-2.34h-2.32V10.6c0-.68.19-1.14 1.16-1.14h1.24V7.37c-.22-.03-.97-.1-1.85-.1-1.83 0-3.08 1.12-3.08 3.18v1.72H10.5v2.34h2.09V20.5h2.53z"/>
+                  </svg>
+
                 </a>
               </li>
               <li>
                 <a href="https://www.tiktok.com/@theofficialgni" target="_blank" rel="noopener noreferrer">
-                  Tiktok
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="64" height="64">
+                    <rect width="24" height="24" rx="5" ry="5" fill="#000000" />
+
+                    <path fill="#ffffff" d="M19.589 6.686a7.518 7.518 0 0 1-4.32-1.364V12.9a5.352 5.352 0 1 1-5.352-5.352c.315 0 .622.031.921.09v2.247a3.142 3.142 0 1 0 2.213 2.989V2.25h2.247a7.518 7.518 0 0 0 4.301 4.436z"/>
+                  </svg>
                 </a>
               </li>
             </ul>
