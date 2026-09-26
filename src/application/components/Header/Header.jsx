@@ -1,10 +1,11 @@
 
 import React, { useEffect, useState } from 'react';
-import { Link } from 'react-router-dom';
+import { Link, useLocation } from 'react-router-dom';
 import styles from './styles.module.css';
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const location = useLocation();
 
   useEffect(() => {
     const handleScroll = () => {
@@ -16,7 +17,12 @@ const Header = () => {
       }
     };
 
-    window.addEventListener('scroll', handleScroll);
+    if (location.pathname === '/') {
+      window.addEventListener('scroll', handleScroll);
+    } else {
+      const header = document.querySelector(`.${styles['Header']}`);
+      header.classList.add(styles['HeaderScrolled']);
+    }
 
     return () => {
       window.removeEventListener('scroll', handleScroll);
@@ -35,20 +41,26 @@ const Header = () => {
             <nav className={styles['HeaderNav']}>
               <ul>
                 <li>
-                  <a href="#about">
+                  <a href="/#about">
                     ABOUT
                     <span />
                   </a>
                 </li>
                 <li>
-                  <a href="#programs">
+                  <a href="/#programs">
                     PROGRAMS
                     <span />
                   </a>
                 </li>
                 <li>
-                  <a href="#impact">
+                  <a href="/#impact">
                     OBJECTIVES AND IMPACT
+                    <span />
+                  </a>
+                </li>
+                <li>
+                  <a href="/blog">
+                    BLOG
                     <span />
                   </a>
                 </li>
@@ -62,7 +74,7 @@ const Header = () => {
                 <span>↗</span>
               </a>
               {/* <span />
-              <a href="#donate" className="btn btn-primary">
+              <a href="/#donate" className="btn btn-primary">
                 Donate
 
                 <span>↗</span>
@@ -87,20 +99,26 @@ const Header = () => {
           <div className={styles['HeaderMenu']}>
             <ul>
               <li>
-                <a href="#about" onClick={() => setIsMenuOpen(false)}>
+                <a href="/#about" onClick={() => setIsMenuOpen(false)}>
                   About
                   <span>→</span>
                 </a>
               </li>
               <li>
-                <a href="#programs" onClick={() => setIsMenuOpen(false)}>
+                <a href="/#programs" onClick={() => setIsMenuOpen(false)}>
                   Programs
                   <span>→</span>
                 </a>
               </li>
               <li>
-                <a href="#impact" onClick={() => setIsMenuOpen(false)}>
+                <a href="/#impact" onClick={() => setIsMenuOpen(false)}>
                   Objectives and Impact
+                  <span>→</span>
+                </a>
+              </li>
+              <li>
+                <a href="/blog" onClick={() => setIsMenuOpen(false)}>
+                  Blog
                   <span>→</span>
                 </a>
               </li>
@@ -111,7 +129,7 @@ const Header = () => {
                 Join Us
               </a>
 
-              {/* <a href="#donate" className="btn btn-primary">
+              {/* <a href="/#donate" className="btn btn-primary">
                 Donate
 
                 <span>↗</span>

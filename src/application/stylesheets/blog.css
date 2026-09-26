@@ -1,0 +1,47 @@
+#bh-template-fresh24 .bh-meta-box, #bh-template-modern .bh-meta-box {
+  margin: 16px 0 !important;
+}
+
+#bh-template-fresh24 .bh-post-text, #bh-template-risebeauty .bh-post-text {
+  margin: 0 !important;
+}
+
+.powered_by {
+  display: none !important;
+}
+
+.bh-post-single h1,
+.bh-post-single h2,
+.bh-post-single h3,
+.bh-post-single h4,
+.bh-post-single h5,
+.bh-post-single h6 {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+.bh-post-single span,
+.bh-post-single p {
+  font-size: 18px;
+  line-height: 2;
+}
+
+.bh-post-single h1 {
+  font-size: 40px;
+  line-height: 1.2;
+}
+
+.bh-post-single h2 {
+  font-size: 32px;
+  line-height: 1.2;
+  margin: 32px 0 16px 0;
+}
+
+.bh-post-single h3 {
+  font-size: 24px;
+  line-height: 1.2;
+  margin: 24px 0 12px 0;
+}
+
+.bh-post-back-link {
+  display: none;
+}

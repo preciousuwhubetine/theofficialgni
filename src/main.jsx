@@ -6,6 +6,7 @@ import { run as initializeImages } from './config/initializers/images';
 import './application/stylesheets/index.css';
 import './application/stylesheets/animations.css';
 import './application/stylesheets/buttons.css';
+import './application/stylesheets/blog.css';
 
 const main = async () => {
   await initializeImages();

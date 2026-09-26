@@ -129,6 +129,12 @@ function Footer() {
                 </a>
               </li>
               <li>
+                <a href="/blog">
+                  <span />
+                  Blog
+                </a>
+              </li>
+              <li>
                 <a href="https://chat.whatsapp.com/EE0T4W6cXBg7ATpILd1vyb" target="_blank" rel="noopener noreferrer">
                   <span />
                   Join Community
