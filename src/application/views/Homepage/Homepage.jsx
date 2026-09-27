@@ -1,14 +1,35 @@
-import { useRef, useEffect } from 'react';
-import { Link } from 'react-router-dom';
+import { Helmet } from 'react-helmet';
+import { Slide } from 'react-slideshow-image';
+import 'react-slideshow-image/dist/styles.css'
 import styles from './styles.module.css';
 
 const Homepage = () => {
+  const slideImages = [
+    '/images/homepage-hero-bg.jpg',
+    '/images/homepage-hero-bg-1.jpg',
+    '/images/homepage-hero-bg-2.jpg',
+    '/images/homepage-hero-bg-3.jpg',
+    '/images/homepage-hero-bg-4.jpg',
+  ];
+
   return (
     <div className={styles['Homepage']}>
+      <Helmet>
+        <title>Greener Nigeria Initiative</title>
+        <meta name="description" content="Greener Nigeria Initiative (GNI) is the pilot solution design at Forward Impact for Development in Africa (FIDA) — created to be the bridge between everyday Nigerians and the realisation of a working Nigeria." />
+      </Helmet>
+
       <section className={styles['Hero']}>
         <div className={styles['HeroImage']}>
-          <div />
-          <img src="/images/homepage-hero-section-bg.jpg" alt="Young Nigerians in national colours" />
+          <div className={styles['HeroImageOverlay']} />
+
+          <Slide duration={3000}>
+            {slideImages.map((image, index) => (
+              <div key={index} className={styles['HeroImageSlide']}>
+                <img src={image} alt={`Greener Nigeria Initiative Hero Slide ${index + 1}`} />
+              </div>
+            ))}
+          </Slide>
         </div>
         <div className="container">
           <div className={styles['HeroContent']}>
