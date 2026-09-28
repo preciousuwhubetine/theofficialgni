@@ -2,6 +2,7 @@ import { Helmet } from 'react-helmet';
 import { Slide } from 'react-slideshow-image';
 import 'react-slideshow-image/dist/styles.css'
 import styles from './styles.module.css';
+import { useEffect } from 'react';
 
 const Homepage = () => {
   const slideImages = [
@@ -11,6 +12,16 @@ const Homepage = () => {
     '/images/homepage-hero-bg-3.jpg',
     '/images/homepage-hero-bg-4.jpg',
   ];
+
+  useEffect(() => {
+    const interval = setInterval(() => {
+      document.title = "The Official Greener Nigeria Initiative";
+    }, 1000);
+
+    return () => {
+      clearInterval(interval);
+    };
+  });
 
   return (
     <div className={styles['Homepage']}>
