@@ -166,6 +166,19 @@ const Homepage = () => {
       </section>
 
       <section className={styles['About']} id="about">
+        <div className={styles["InfoStrip"]}>
+          <div className="container">
+            <div className={styles['InfoStripContent']}>
+              <p>www.theofficialgni.ng</p>
+
+              <div>
+                <p>IG · FB · X · TikTok · LinkedIn: @theofficialgni</p>
+                <span />
+                <p>+234 812 639 0089</p>
+              </div>
+            </div>
+          </div>
+        </div>
         <div className={styles['AboutHeader']}>
           <div className="container">
             <div className={styles['AboutHeaderContent']}>

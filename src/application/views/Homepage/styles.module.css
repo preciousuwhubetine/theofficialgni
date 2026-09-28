@@ -178,6 +178,37 @@
   background-color: var(--primary-color);
 }
 
+.InfoStrip {
+  border-top: 1px solid rgba(255, 255, 255, 0.10);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.10);
+  padding: 8px;
+  color: var(--text-color-light-3);
+  background-color: black;
+}
+
+.InfoStripContent {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.InfoStripContent p {
+  font-size: 12px;
+}
+
+.InfoStripContent div {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.InfoStripContent div span {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background-color: var(--primary-color);
+}
+
 .AboutHeader {
   border-bottom: 1px solid #f0f0f0;
   padding: 20px 64px;
@@ -971,6 +1002,10 @@
   .ImpactContent {
     grid-template-columns: 1fr 1fr;
   }
+
+  .InfoStripContent {
+    flex-direction: column;
+  }
 }
 
 @media (max-width: 550px) {
@@ -999,5 +1034,15 @@
 @media (max-width: 500px) {
   .BannerContent {
     animation: "scroll" 3s linear infinite;
+  }
+
+  .InfoStrip div {
+    flex-direction: column;
+    gap: 0;
+    text-align: center;
+  }
+
+  .InfoStrip div span {
+    display: none;
   }
 }
