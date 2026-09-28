@@ -157,6 +157,9 @@ function Footer() {
               <p>
                 <a href="tel:+234 812 639 0089">+234 812 639 0089</a>
               </p>
+              <p>
+                <a href="tel:+234 913 009 7676">+234 913 009 7676</a>
+              </p>
             </div>
 
             <div className={styles['ContactInfo']}>
