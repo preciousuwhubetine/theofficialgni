@@ -165,20 +165,77 @@ const Homepage = () => {
         </div>
       </section>
 
-      <section className={styles['About']} id="about">
-        <div className={styles["InfoStrip"]}>
-          <div className="container">
-            <div className={styles['InfoStripContent']}>
-              <p>www.theofficialgni.ng</p>
+      <section className={styles['Impact']} id="milestones">
+        <div className={styles['ImpactBg']}>
+          <img src="/images/impact-bg.jpg" alt="Greener Nigeria Initiative Impact" />
+        </div>
 
-              <div>
-                <p>IG · FB · X · TikTok · LinkedIn: @theofficialgni</p>
-                <span />
-                <p>+234 812 639 0089</p>
-              </div>
-            </div>
+        <div className={styles['ImpactHeader']}>
+          <div className={styles['ImpactHeaderLeft']}>
+            <h5>OUR MILESTONES</h5>
+            <h2>
+              7 YEARS OF <span>MEASURABLE</span> IMPACT
+            </h2>
+          </div>
+
+          <div className={styles['ImpactHeaderRight']}>
+            <p>
+              From a single event in Alimosho, Lagos to a movement spanning 8 states and over one million Nigerians.
+            </p>
           </div>
         </div>
+
+        <div className={styles['ImpactContent']}>
+          <div className={styles['ImpactContentGroup']}>
+            <h5>TOTAL REACH</h5>
+            <h1>1M+</h1>
+            <p>Nigerians Reached</p>
+          </div>
+          <div className={styles['ImpactContentGroup']}>
+            <h5>01</h5>
+            <h2>7+</h2>
+            <p>Years in Operation</p>
+          </div>
+          <div className={styles['ImpactContentGroup']}>
+            <h5>02</h5>
+            <h2>25+</h2>
+            <p>Programs Delivered</p>
+          </div>
+          <div className={styles['ImpactContentGroup']}>
+            <h5>03</h5>
+            <h2>8</h2>
+            <p>States Represented</p>
+          </div>
+          <div className={styles['ImpactContentGroup']}>
+            <h5>04</h5>
+            <h2><span>1,200+</span></h2>
+            <p>Youths Physically Engaged</p>
+          </div>
+          <div className={styles['ImpactContentGroup']}>
+            <h5>05</h5>
+            <h2>9</h2>
+            <p>Physical Events</p>
+          </div>
+          <div className={styles['ImpactContentGroup']}>
+            <h5>06</h5>
+            <h2>80+</h2>
+            <p>Volunteers</p>
+          </div>
+        </div>
+
+        <div className={styles['ImpactFooter']}>
+          <div className={styles['ImpactFooterLeft']}>
+            <span />
+            <p>1,500+ Community Members · 4 Flagship Programs</p>
+          </div>
+
+          <a href="#programs">
+            SEE OUR PROGRAMS →
+          </a>
+        </div>
+      </section>
+
+      <section className={styles['About']} id="about">
         <div className={styles['AboutHeader']}>
           <div className="container">
             <div className={styles['AboutHeaderContent']}>
@@ -488,76 +545,6 @@ const Homepage = () => {
               </li>
             </ul>
           </div>
-        </div>
-      </section>
-
-      <section className={styles['Impact']} id="milestones">
-        <div className={styles['ImpactBg']}>
-          <img src="/images/impact-bg.jpg" alt="Greener Nigeria Initiative Impact" />
-        </div>
-
-        <div className={styles['ImpactHeader']}>
-          <div className={styles['ImpactHeaderLeft']}>
-            <h5>OUR MILESTONES</h5>
-            <h2>
-              7 YEARS OF <span>MEASURABLE</span> IMPACT
-            </h2>
-          </div>
-
-          <div className={styles['ImpactHeaderRight']}>
-            <p>
-              From a single event in Alimosho, Lagos to a movement spanning 8 states and over one million Nigerians.
-            </p>
-          </div>
-        </div>
-
-        <div className={styles['ImpactContent']}>
-          <div className={styles['ImpactContentGroup']}>
-            <h5>TOTAL REACH</h5>
-            <h1>1M+</h1>
-            <p>Nigerians Reached</p>
-          </div>
-          <div className={styles['ImpactContentGroup']}>
-            <h5>01</h5>
-            <h2>7+</h2>
-            <p>Years in Operation</p>
-          </div>
-          <div className={styles['ImpactContentGroup']}>
-            <h5>02</h5>
-            <h2>25+</h2>
-            <p>Programs Delivered</p>
-          </div>
-          <div className={styles['ImpactContentGroup']}>
-            <h5>03</h5>
-            <h2>8</h2>
-            <p>States Represented</p>
-          </div>
-          <div className={styles['ImpactContentGroup']}>
-            <h5>04</h5>
-            <h2><span>1,200+</span></h2>
-            <p>Youths Physically Engaged</p>
-          </div>
-          <div className={styles['ImpactContentGroup']}>
-            <h5>05</h5>
-            <h2>9</h2>
-            <p>Physical Events</p>
-          </div>
-          <div className={styles['ImpactContentGroup']}>
-            <h5>06</h5>
-            <h2>80+</h2>
-            <p>Volunteers</p>
-          </div>
-        </div>
-
-        <div className={styles['ImpactFooter']}>
-          <div className={styles['ImpactFooterLeft']}>
-            <span />
-            <p>1,500+ Community Members · 4 Flagship Programs</p>
-          </div>
-
-          <a href="#programs">
-            SEE OUR PROGRAMS →
-          </a>
         </div>
       </section>
     </div>
