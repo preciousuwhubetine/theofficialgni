@@ -59,7 +59,7 @@ const Header = () => {
                   </a>
                 </li>
                 <li>
-                  <a href="/blog">
+                  <a href="https://theofficialgni.blogspot.com/?m=1" target="_blank">
                     BLOG
                     <span />
                   </a>
